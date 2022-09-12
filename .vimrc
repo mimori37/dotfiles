@@ -1,3 +1,4 @@
+" git test
 " gvimのメニューバー等表示設定は同ディレクトリの.gvimrcに
 " 文字コード判別
 set encoding=utf-8
