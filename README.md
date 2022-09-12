@@ -1,8 +1,11 @@
 # dotfiles
+To enter following command, you can install mimori37's dotfiles to your computer.  
+These commands may overwrite your dotfiles.
 
 ## cmd(windows)
-You need to install Git beforehand.
+You need to install Git beforehand.  
 ```
-cd C:\Users\%USERNAME%\dotfiles
-git clone https://github.com/mimori37/dotfiles
+mkdir %HOMEPATH%\dotfiles & 
+git clone https://github.com/mimori37/dotfiles %HOMEPATH%\dotfiles & 
+%HOMEPATH%\dotfiles\mklink.bat
 ```
