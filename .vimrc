@@ -68,7 +68,7 @@ autocmd Colorscheme * highlight FullWidthSpace ctermbg=white
 autocmd VimEnter * match FullWidthSpace /　/
 " タブ文字、行末空白、改行、空白の可視化
 set list
-set listchars=tab:>-,trail:_,eol:↲,extends:>,precedes:<,nbsp:%
+set listchars=tab:>-,trail:_,eol:$,extends:>,precedes:<,nbsp:%
 " タブ文字の長さの認識設定
 set tabstop=4
 " 入力時のタブ長さ
