@@ -27,6 +27,8 @@ set nowritebackup
 set nobackup
 " swap(編集前の状態を保存する一時ファイル)を作成しない
 set noswapfile
+" Undoの復元ファイル（un~）を作成しない
+set noundofile
 " Enterを押さずとも検索できる
 set incsearch
 " 検索結果のハイライト
@@ -104,7 +106,7 @@ nnoremap l l:let @/ = '\<' . expand('<cword>') . '\>'<CR>:set hlsearch<CR>:echo 
 " VIMRCの別枠編集
 nnoremap <F1> <Esc>:tabnew $MYVIMRC<CR>
 " VIMRCの保存&再読み込み
-nnoremap <F2> <Esc>:w<CR>:source $MYVIMRC<CR>
+nnoremap <F2> <Esc>:source $MYVIMRC<CR>
 " 別枠起動
 nnoremap <F3> <ESC>:tabnew<CR>
 " 別枠起動&ファイル名指定
