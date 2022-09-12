@@ -78,7 +78,7 @@ set noexpandtab
 " レジスタ未指定でクリップボードを利用
 set clipboard=unnamed,autoselect
 " font設定
-set guifont=Cascadia_Code:h11
+set guifont=Consolas:h11
 " KEY_MAPPING
 " :map	key_map for Normal_mode & Visual_mode
 " :nmap	key_map for Normal_mode
