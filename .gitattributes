@@ -1,1 +1,3 @@
 *.bat text eol=crlf
+.vimrc text eol=lf
+.gvimrc text eol=lf
