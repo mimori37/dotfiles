@@ -104,7 +104,7 @@ nnoremap j j:let @/ = '\<' . expand('<cword>') . '\>'<CR>:set hlsearch<CR>:echo 
 nnoremap k k:let @/ = '\<' . expand('<cword>') . '\>'<CR>:set hlsearch<CR>:echo expand('<cword>')<CR>
 nnoremap l l:let @/ = '\<' . expand('<cword>') . '\>'<CR>:set hlsearch<CR>:echo expand('<cword>')<CR>
 " VIMRCの別枠編集
-nnoremap <F1> <Esc>:tabnew $HOME\dotfiles\.vimrc
+nnoremap <F1> <Esc>:tabnew $HOME\dotfiles\.vimrc<CR>
 " VIMRCの保存&再読み込み
 nnoremap <F2> <Esc>:source $HOME\.vimrc<CR>
 " 別枠起動
