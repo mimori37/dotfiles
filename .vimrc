@@ -58,7 +58,7 @@ set showmatch
 " 日本語フォントを全角文のスペースにする
 set ambiwidth=double
 " カーソル行の強調
-set cursorline
+" set cursorline
 " 色設定
 hi CursorLine cterm=underline ctermfg=NONE ctermbg=black
 hi lineNr term=bold cterm=NONE ctermfg=120 ctermbg=NONE
