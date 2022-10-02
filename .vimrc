@@ -99,10 +99,10 @@ inoremap <S-CR> <ESC>o
 " ファイル保存時に行末スペースの自動削除
 autocmd BufWritePre * :%s/\s\+$//ge
 " カーソル直下の単語を全ハイライト
-nnoremap h h:let @/ = '\<' . expand('<cword>') . '\>'<CR>:set hlsearch<CR>:echo expand('<cword>')<CR>
-nnoremap j j:let @/ = '\<' . expand('<cword>') . '\>'<CR>:set hlsearch<CR>:echo expand('<cword>')<CR>
-nnoremap k k:let @/ = '\<' . expand('<cword>') . '\>'<CR>:set hlsearch<CR>:echo expand('<cword>')<CR>
-nnoremap l l:let @/ = '\<' . expand('<cword>') . '\>'<CR>:set hlsearch<CR>:echo expand('<cword>')<CR>
+" nnoremap h h:let @/ = '\<' . expand('<cword>') . '\>'<CR>:set hlsearch<CR>:echo expand('<cword>')<CR>
+" nnoremap j j:let @/ = '\<' . expand('<cword>') . '\>'<CR>:set hlsearch<CR>:echo expand('<cword>')<CR>
+" nnoremap k k:let @/ = '\<' . expand('<cword>') . '\>'<CR>:set hlsearch<CR>:echo expand('<cword>')<CR>
+" nnoremap l l:let @/ = '\<' . expand('<cword>') . '\>'<CR>:set hlsearch<CR>:echo expand('<cword>')<CR>
 " VIMRCの別枠編集
 nnoremap <F1> <Esc>:tabnew $HOME\dotfiles\.vimrc<CR>
 " VIMRCの保存&再読み込み
