@@ -5,3 +5,5 @@ gui
 set ambiwidth=double
 " ビープ音の消去
 set vb t_vb=
+" カラースキーマ
+colorscheme peachpuff
