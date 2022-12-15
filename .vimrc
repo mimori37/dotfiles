@@ -152,8 +152,8 @@ nmap <F8> <ESC>:w<CR>:Gcc<CR>
 
 augroup DoScript
   autocmd!
-  audocmd BufRead,BufNewFile *.py nnoremap <F8> :w<CR>:!python %<CR>
-  audocmd BufRead,BufNewFile *.py inoremap <F8> <ESC>:w<CR>:!python %<CR>
+  autocmd BufRead,BufNewFile *.py nnoremap <F8> :w<CR>:!python %<CR>
+  autocmd BufRead,BufNewFile *.py inoremap <F8> <ESC>:w<CR>:!python %<CR>
 augroup END
 
 source $VIMRUNTIME/mswin.vim
